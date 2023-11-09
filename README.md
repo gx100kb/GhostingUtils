@@ -19,6 +19,8 @@ ghosting.log('Message in red', 'red');
 To use the `error` function, follow this pattern:
 
 ```javascript
+const ghosting = require('./GhostingUtils/index.js'
+
 //error stopping code
 ghosting.error('Message of error', true);
 
@@ -29,6 +31,8 @@ ghosting.error('Message of error', false)
 To use the `clear` function, follow this pattern:
 
 ```javascript
+const ghosting = require('./GhostingUtils/index.js'
+
 //Clear terminal
 ghosting.clear()
 ```
