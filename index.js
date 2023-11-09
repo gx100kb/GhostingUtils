@@ -27,17 +27,24 @@ function error(message, stop) {
     log(`Error: An error occurred on line ${lineNumber}. ${message}`, 'red');
 }
 
+function clear() {
+    for (let i = 0; i < 50; i++) {
+        console.log('\n');
+    }
+}
 
 log('Utils Loaded', 'green')
 
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = {
         log,
-        error
+        error,
+        clear
     };
 }
 
 if (typeof window !== 'undefined') {
     window.log = log;
     window.error = error;
+    window.clear = clear;
 }
