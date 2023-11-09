@@ -1,4 +1,4 @@
-# Node.js Logger
+# GhostingUtils
 
 A simple utility for logging messages with colors in Node.js.
 
