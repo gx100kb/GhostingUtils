@@ -14,3 +14,10 @@ ghosting.log('Message in blue', 'blue');
 
 // Log a message in red
 ghosting.log('Message in red', 'red');
+
+//error stopping code
+ghosting.error('Message of error', true);
+
+//error continue code
+ghosting.error('Message of error', false)
+
