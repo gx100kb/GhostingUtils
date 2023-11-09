@@ -14,7 +14,11 @@ ghosting.log('Message in blue', 'blue');
 
 // Log a message in red
 ghosting.log('Message in red', 'red');
+```
 
+To use the `error` function, follow this pattern:
+
+```javascript
 //error stopping code
 ghosting.error('Message of error', true);
 
