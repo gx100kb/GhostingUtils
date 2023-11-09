@@ -7,10 +7,10 @@ A simple utility for logging messages with colors in Node.js.
 To use the `log` function, follow this pattern:
 
 ```javascript
-const { log } = require('your-logger-package');
+const { ghosting } = require('./GhostingUtils/index.js');
 
 // Log a message in blue
-log('Message in blue', 'blue');
+ghosting.log('Message in blue', 'blue');
 
 // Log a message in red
-log('Message in red', 'red');
+ghosting.log('Message in red', 'red');
