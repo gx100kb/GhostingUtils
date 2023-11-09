@@ -24,4 +24,11 @@ ghosting.error('Message of error', true);
 
 //error continue code
 ghosting.error('Message of error', false)
+```
 
+To use the `clear` function, follow this pattern:
+
+```javascript
+//Clear terminal
+ghosting.clear()
+```
